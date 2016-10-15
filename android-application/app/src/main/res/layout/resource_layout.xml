@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="Name..."
+        android:inputType="textVisiblePassword"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"/>
+    <TextView
+        android:id="@+id/text_view_name"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="Name..."
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"/>
+    <SeekBar
+        android:id="@+id/seek_bar_amount"
+        android:layout_weight="0.55"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/text_view_amount"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="0"
+        android:layout_weight="0.15"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

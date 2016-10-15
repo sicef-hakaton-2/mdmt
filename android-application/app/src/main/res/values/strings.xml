@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">hakaton</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_shelter">NewShelterActivity</string>
+    <string name="new_shelter_item">New Shelter</string>
+    <string name="shelter_beds">Beds: </string>
+    <string name="shelter_image">Shelter image</string>
+    <string name="shelter_drinks">Drinks:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="shelter">I want to help</string>
+    <string name="refugees">I need help</string>
+    <string name="title_activity_shelters">SheltersActivity</string>
+    <string name="source">Source:</string>
+    <string name="destination">Destination:</string>
+    <string name="time">Time:</string>
+    <string name="seats">Seats:</string>
+</resources>
